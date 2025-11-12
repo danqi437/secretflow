@@ -611,7 +611,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Add missing **init** files.
+- Add missing __init__.py files.
 
 ## [0.8.2b0] - 2023-4-19
 
@@ -684,7 +684,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fix
 
-- add **init**.py to sl tensorflow strategy folder.
+- add __init__.py to sl tensorflow strategy folder.
 
 ## [0.7.18b2] - 2023-2-9
 
@@ -780,7 +780,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - SSXgb col sub error.
 - HomeXgb callback.
 - Compress mask.
-- spu.**call** fails when SPUCompilerNumReturnsPolicy is FROM_USER and user_specified_num_returns is 1.
+- spu.__call__ fails when SPUCompilerNumReturnsPolicy is FROM_USER and user_specified_num_returns is 1.
 
 ## [0.7.12] - 2022-11-18
 
@@ -1123,7 +1123,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - FL model: up early stop from step to epoch.
 - SecureAggregation uses powers of 2.
 - Rename vdf partitions_dimensions to partition_columns.
-- Use \*args instead of args in aggregation for reducing ray task dependency.
+- Use *args instead of args in aggregation for reducing ray task dependency.
 
 ### Fixed
 
